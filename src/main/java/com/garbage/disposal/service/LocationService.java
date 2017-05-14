@@ -16,7 +16,7 @@ public class LocationService {
 	@Autowired
 	private LocationDAO locationDAO;
 
-	// Logger factory for loggig purpose
+	// Logger factory for logging purpose
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	// Fetch all locations from database

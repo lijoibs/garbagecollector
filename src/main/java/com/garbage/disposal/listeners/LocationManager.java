@@ -22,7 +22,7 @@ import com.garbage.disposal.service.LocationService;
 @Component
 public class LocationManager {
 
-	// Logger factory for loggig purpose
+	// Logger factory for logging purpose
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	private List<Location> locationList = new ArrayList<>();
